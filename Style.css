@@ -1,0 +1,86 @@
+:root {
+  --primary-color: #6fe6fc;
+  --bradius-primary: 15px;
+}
+
+body {
+  margin: 0;
+  padding: 50px;
+  background-color: #fffa8d;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  box-shadow: #000 1px 0px 5px;
+
+  justify-content: space-between;
+  border: none;
+  display: flex;
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 5px;
+  border-radius: var(--bradius-primary);
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+  padding: 10px;
+}
+
+.ig {
+  width: 30px;
+  height: auto;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 35px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  padding: 0px;
+  color: #e2ddd7;
+  transition: 0.4s;
+}
+
+.ig:hover {
+  transform: scale(1.5);
+  transition: 0.4s;
+}
+
+.logo:hover {
+  transform: scale(1.5);
+  transition: 0.4s;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--bradius-primary);
+  margin-top: 15px;
+  box-shadow: #000 1px 0px 5px;
+  background-color: var(--primary-color);
+}
+
+.info {
+  text-align: center;
+  padding: 20px;
+}
+
+.info h1 {
+  color: rgb(224, 107, 126);
+}
+
+.info p {
+  color: #945034;
+}
